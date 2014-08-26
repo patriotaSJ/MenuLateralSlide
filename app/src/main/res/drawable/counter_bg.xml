@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <!-- vista del color del background -->
+    <solid android:color="@color/counter_text_bg" >
+    </solid>
+
+    <!-- Si queres agregar algun espacio -->
+    <padding
+        android:right="3dp"
+        android:left="3dp" >
+    </padding>
+
+    <!-- Corner raduis -->
+    <corners android:radius="2dp" >
+    </corners>
+
+</shape>

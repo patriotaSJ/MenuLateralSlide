@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejemplo Menu</string>
+    <string name="action_settings">Configuración</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Se abrio el menu lateral</string>
+    <string name="drawer_close">Se cerro el menu lateral</string>
+
+    <!-- Nombres de los items -->
+    <string-array name="nav_drawer_items">
+        <item >Seccion1</item>
+        <item >Seccion2</item>
+        <item >Seccion3</item>
+        <item >Seccion4</item>
+    </string-array>
+
+    <!-- Iconos de los items -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_whats_hot</item>
+        <item>@drawable/ic_people</item>
+        <item>@drawable/ic_photos</item>
+        <item>@drawable/ic_communities</item>
+    </array>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+</resources>
